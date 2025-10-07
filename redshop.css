@@ -1,0 +1,340 @@
+.mainheader {
+    background-color: rgb(243, 215, 220);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.imagenav img {
+    width: 140px;
+}
+
+.listnav ul {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-size: 30px;
+    font-family: sans-serif;
+
+}
+
+.listnav ul li {
+    list-style: none;
+
+
+
+}
+
+.listnav ul li a {
+
+    text-decoration: none;
+    color: black;
+
+}
+
+.listnav ul img {
+    width: 35px;
+}
+
+.Home {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 120px;
+    align-items: center;
+}
+
+.texthome {
+    font-size: 0px;
+    font-family: sans-serif;
+    padding: 30px;
+    padding-right: 30px;
+}
+
+.texthome h1 {
+    font-size: 50px;
+    font-family: sans-serif;
+
+}
+
+.texthome p {
+    font-size: 17px;
+    font-family: sans-serif;
+}
+
+.texthome button {
+    background-color: rgb(244, 71, 8);
+    border-radius: 30px;
+    border: none;
+    padding: 10px 30px;
+    color: aliceblue;
+
+}
+
+.picimage img {
+    width: 800px;
+    height: 500px;
+}
+
+/* end header  */
+
+/* atarting products  */
+
+.product {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.product img {
+    width: 350px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.imglas {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+
+.headproduct {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 70px;
+
+}
+
+.fa-solid {
+    color: orangered;
+}
+
+.headproduct hr {
+    width: 100px;
+    background-color: rgb(236, 115, 54);
+    padding: 3px;
+    border-radius: 10px;
+}
+
+/* end products  */
+
+/* starting lastest product */
+
+
+.lastetproduct {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+
+}
+
+
+.imglas img {
+    width: 250px;
+    height: 300px;
+}
+
+/* end lastes product  */
+
+
+/* starting exclusive */
+
+.exclusive {
+    background-color: rgb(249, 212, 218);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-top: 30px;
+
+}
+
+.imgexcl img {
+    width: 500px;
+    height: 500px;
+}
+
+.textexclu p {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.textexclu h1 {
+    font-size: 60px;
+    
+    font-family: sans-serif;
+}
+
+.textexclu button {
+    background-color: rgb(240, 68, 11);
+    border: none;
+    border-radius: 20px;
+    padding: 10px 30px;
+    color: aliceblue;
+}
+
+
+/* end exclusive  */
+
+/* starting owners  */
+
+.owners {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 80px ;
+    gap: 40px;
+   
+
+
+}
+
+.ownerbox {
+    border: none;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    width: 22%;
+    height: 22%;
+    padding: 10px 10px;
+    
+}
+
+.ownerbox .quote .fa-solid {
+
+    font-size: 60px;
+}
+
+.ownerbox P {
+    font-size: 18PX;
+    font-family: sans-serif;
+}
+
+
+.ownerbox .ownerico {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.imgowner img {
+    border: none solid;
+    border-radius: 100%;
+    width: 60px;
+}
+
+.imgowner H3 {
+    font-family: sans-serif;
+}
+
+/* END OWNERS  */
+
+/* STARTING logos */
+
+.imglogos {
+    display: flex;
+    justify-content: center ;
+    gap: 30px;   
+}
+.imglogos img{
+    width: 200px;
+}
+
+
+/* end logos  */
+
+/* starting footer  */
+
+.mainfooter {
+    background-color: black;
+    margin: 0 0;
+
+}
+
+.footerboxes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
+
+    color: aliceblue;
+    padding: 40px 20px;
+    gap: 30px;
+
+}
+
+.footerbox h3 {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.footerbox p {
+    font-size: 20px;
+    font-family: sans-serif;
+     color: rgb(85, 91, 96);
+}
+
+.imfooter img {
+    width: 100px;
+}
+
+.footerboxtex {
+    text-align: center;
+}
+
+.footerboxtex img {
+    width: 200px;
+}
+
+.footerboxtex p {
+    font-family: sans-serif;
+     color: rgb(85, 91, 96);
+}
+
+.footerboxform1 {
+    list-style: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footerboxform1 h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.footerboxform1 li{
+     color: rgb(85, 91, 96);
+}
+
+.footerboxform2 {
+    list-style: none;
+}
+.footerboxform2 li{
+     color: rgb(85, 91, 96);
+}
+
+.footerboxform2 h2 {
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.mainfooter hr {
+    color: rgb(85, 91, 96);
+    
+    border: 1px solid;
+    width: 1300px;
+}
+
+.copyright {
+
+    color: rgb(85, 91, 96);
+    text-align: center;
+    padding: 20px 20px;
+}
+
+
